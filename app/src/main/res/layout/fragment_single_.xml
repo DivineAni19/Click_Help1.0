@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:orientation="vertical"
+    tools:context="com.Help.Helping_1.click_help_1.Single_Fragment">
+
+
+
+
+    <TextView
+        android:text="Event Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/activity_name"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+
+
+    <Button
+        android:text="Donate Now"
+        android:layout_width="match_parent"
+
+        android:textColor="#FFF"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/donate"
+        android:background="@drawable/button_design"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:text="Event Place:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/Place_ppp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        />
+
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/event_place"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:text="Show On Map"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1e4adc"
+        android:textSize="18dp"
+        android:id="@+id/mp"
+        android:textStyle="normal|bold" />
+
+
+
+    <TextView
+        android:text="About Event:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/desc_ppp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+         />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+
+        android:id="@+id/description"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

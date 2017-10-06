@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+
+        android:orientation="vertical"
+        tools:context="com.Help.Helping_1.click_help_1.Single_Fragment_Admin">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_name_pl"
+            android:textAlignment="center"
+            android:layout_marginBottom="7dp"
+            android:textStyle="normal|bold"
+            android:textSize="26sp"
+            android:textColor="#000"
+            android:enabled="false"
+            android:hint="Event Name" />
+
+        <Button
+            android:text="Donation Info"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Donation_info"
+            android:background="@drawable/button_design"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFF"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <TextView
+            android:text="Event Place:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/Pl_"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="normal|bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+             />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_place_pl"
+
+
+            android:textSize="18sp"
+            android:enabled="false"
+            android:textColor="#000"
+            android:hint="Event Place" />
+
+        <TextView
+            android:text="About Event:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/ds"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="normal|bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+             />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_description_pl"
+            android:enabled="false"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:hint="Event Description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="Edit Event Info"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit"
+                android:background="@drawable/button_design"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+
+                android:textColor="#FFF"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="Save Event Info"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:id="@+id/save"
+                android:background="@drawable/button_design"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

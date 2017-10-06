@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/gp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+
+            android:title="Account" />
+
+    </group>
+
+    <group android:id="@+id/gp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donate"
+
+            android:title="Activities For Donation" />
+
+    </group>
+    <group android:id="@+id/gp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mycreation"
+
+            android:title="My Created Events" />
+
+    </group>
+    <group android:id="@+id/gp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mydonation"
+
+            android:title="My Donation" />
+
+    </group>
+
+    <group android:id="@+id/gp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+
+            android:title="Log Out" />
+
+    </group>
+
+
+
+
+</menu>

@@ -1,0 +1,174 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:orientation="vertical"
+    tools:context="com.Help.Helping_1.click_help_1.My_Account">
+
+
+    <TextView
+        android:text="My Account"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my"
+        android:textStyle="normal|bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="My mail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/my_mail"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shadow_text"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:enabled="false"
+        android:ems="10"
+        android:id="@+id/acc_name"
+        android:textSize="18sp"
+        android:text="Name" />
+
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:background="@drawable/shadow_text"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:enabled="false"
+        android:ems="10"
+        android:id="@+id/acc_area"
+        android:textSize="18sp"
+        android:text="Area" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shadow_text"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:enabled="false"
+        android:textColor="#000"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:id="@+id/acc_city"
+        android:textSize="18sp"
+        android:text="City" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Edit Info"
+            android:layout_width="0dp"
+            android:background="@drawable/button_design"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:layout_height="wrap_content"
+            android:id="@+id/acc_edit" />
+
+        <Button
+            android:text="Save Info"
+            android:layout_width="0dp"
+            android:textColor="#FFF"
+            android:background="@drawable/button_design"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/acc_save" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:enabled="false"
+        android:ems="10"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:background="@drawable/shadow_text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/acc_login_pass"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:textColorHint="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Want to change Password??"
+            android:layout_width="0dp"
+            android:background="@drawable/button_design"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:id="@+id/acc_edit_pass" />
+
+        <Button
+            android:text="Save New Password"
+            android:layout_width="0dp"
+            android:background="@drawable/button_design"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:layout_height="wrap_content"
+            android:id="@+id/acc_save_pass" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

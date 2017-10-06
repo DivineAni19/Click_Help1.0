@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d1">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_donate"
+
+    android:layout_width="match_parent"
+    android:layout_height="850dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.Help.Helping_1.click_help_1.Donate">
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView111"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Event name:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="activity name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/activity_name_donate"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:text="Payment Method:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:id="@+id/textView222"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Select a Payment Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#b9b0b0"
+        android:padding="7dp"
+        android:entries="@array/donation_type"
+        android:id="@+id/spinner"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+            android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/activity_name_donate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="16sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:id="@+id/none_none" />
+
+
+        <EditText
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:background="@drawable/shadow_text"
+        android:padding="10dp"
+        android:ems="10"
+        android:id="@+id/visa_number"
+        android:hint="Enter your Card Number" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:background="@drawable/shadow_text"
+        android:padding="10dp"
+        android:ems="10"
+        android:id="@+id/mobile_number"
+        android:hint="Enter your Mobile Number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Donation Amount:"
+        android:id="@+id/textView333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="normal|bold" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="Enter Donation Amount"
+        android:background="@drawable/shadow_text"
+        android:ems="10"
+        android:id="@+id/payment_amount" />
+
+    <Button
+        android:text="CONFIRM DONATION"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textSize="22sp"
+        android:textColor="#FFF"
+        android:background="@drawable/button_design"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm_donation" />
+
+</LinearLayout>
+</ScrollView>

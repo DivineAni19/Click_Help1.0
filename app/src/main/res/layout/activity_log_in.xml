@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.Help.Helping_1.click_help_1.LogIn">
+
+
+
+
+
+
+
+    <TextView
+        android:text="User Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="36sp"
+        android:textColor="#000"
+
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal|bold" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Email"
+
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/shadow_text"
+        android:layout_marginTop="30dp"
+        android:id="@+id/email_login"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000"
+        android:shadowColor="@color/text_shadow"
+
+        android:layout_alignParentStart="true"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/shadow_text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password_login"
+        android:textColor="#000"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:textColorHint="#000" />
+
+    <Button
+    android:text="Log In"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_design"
+        android:textColor="#FFF"
+    android:id="@+id/login_login"
+    android:textSize="18sp"
+    android:layout_marginTop="24dp"
+
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+
+
+
+
+    <Button
+        android:text="WANT TO REGISTER??"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/need_signup"
+        android:background="@drawable/button_design"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
+</ScrollView>
